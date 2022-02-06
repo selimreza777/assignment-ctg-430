@@ -1,6 +1,73 @@
+/* All is Well General */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+}
+
 /*------------------------------------------------------------------
     [Nav Bar]
 ------------------------------------------------------------------*/
+.logo{
+    width: 40px;
+}
+
+.btn.primary-color{
+    background-color: #24CDAF;
+    color: #FFF; 
+}
+
+.logo-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.backgrounds{
+    background-color: #F8FFFF;
+}
+
+.main-text{
+    color: #272F36;
+}
+
+.sub-text{
+    color: #939393
+}
+
+.search-card{
+    display: flex;
+    background-color: #FFF;
+    padding: 1rem;
+    box-shadow: 0 0.375rem 1.5rem 0 rgb(140 152 164 / 13%);
+    border-radius: 0.5rem;
+}
+
+.search-card .form-control{
+    border-width: 0;
+}
+
+.search-card .form-control:focus{
+    box-shadow: none;
+}
+
+.img-responsive{
+    width: 100%;
+    z-index: -1;
+}
+
+.img-about{
+    width: 50%;
+}
+
+.img-experience{
+    width: 20%;
+    margin: auto;
+}
+
+
 
 /*------------------------------------------------------------------
     [Price List]
