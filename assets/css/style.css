@@ -72,7 +72,67 @@
 /*------------------------------------------------------------------
     [Price List]
 ------------------------------------------------------------------*/
+.card-price{
+    color: slategray;
+    text-decoration: none;
+}
 
+.card-price:hover{
+    transition: .3s transform cubic-bezier(.155m 1.05, .295,1.11), .3s box-shadow, .3s -webkit-transform cubic-bezier (1.55, 1.105, .295, 1.12);
+    cursor: pointer;
+    -moz-transform: translate(0px, -20px);
+    -webkit-transform: translate(0px, -20px);
+    -o-transform: translate(0px, -20px);
+    -ms-transform: translate(0px, -20px);
+    transform: translate(0px, -10px);
+}
+
+.card-price h2{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.cross{
+    font-size: 1rem;
+    color: #CD2424;
+}
+
+.head-price{
+    color: #24CDAF;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #FFF;
+    border-color: #24CDAF;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.poin-price{
+    margin-right: 3%;
+    padding: 10px;
+    color: #FFF;
+    border-radius: 100%;
+}
+
+.poin-price.checklist{
+    font-size: 1rem;
+    background-color: #24CDAF;
+}
+
+.poin-price.cross{
+    font-size: 1rem;
+    color: #CD2424;
+}
+
+.bg-card{
+    background-color: #24CDAF;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.bg-card:hover{
+    color: #FFF;
+}
 /*------------------------------------------------------------------
     [Footer]
 ------------------------------------------------------------------*/
